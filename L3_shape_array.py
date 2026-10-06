@@ -1,0 +1,10 @@
+import numpy as np
+array1 = np.arange(1,25)
+print(array1)
+print(":array 1")
+print("array 1s dimensions:",array1.ndim)
+array2 = array1.reshape(4,6)
+array3 = array1.reshape(24,1)
+array4 = array1.reshape(2,12)
+print(array3)
+print(array2.shape)
